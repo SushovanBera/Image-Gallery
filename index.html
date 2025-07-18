@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <h1>Image Gallery</h1>
+
+  <div class="filters">
+    <button data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="city">City</button>
+    <button data-filter="people">People</button>
+  </div>
+
+  <div class="gallery">
+    <img src="images/img1.jpg" alt="Nature" data-category="nature">
+    <img src="images/img2.jpg" alt="City" data-category="city">
+    <img src="images/img3.jpg" alt="People" data-category="people">
+    <img src="images/img4.jpg" alt="Nature" data-category="nature">
+    <img src="images/img5.avif" alt="City" data-category="city">
+    <img src="images/img6.jpg" alt="People" data-category="people">
+    <img src="images/img7.jpg" alt="Nature" data-category="nature">
+    <img src="images/img8.jpg" alt="City" data-category="city">
+    <img src="images/img9.jpg" alt="People" data-category="people">
+    <img src="images/img10.jpg" alt="Nature" data-category="nature">
+    <img src="images/img11.jpg" alt="City" data-category="city">
+    <img src="images/img12.jpg" alt="People" data-category="people">
+    <img src="images/img13.jpg" alt="Nature" data-category="nature">
+    <img src="images/img14.jpg" alt="City" data-category="city">
+    <img src="images/img15.jpg" alt="People" data-category="people">
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" id="lightbox-img" src="">
+    <div class="lightbox-nav">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
